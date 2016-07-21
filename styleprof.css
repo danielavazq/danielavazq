@@ -1,0 +1,124 @@
+h1 {color: #FA8072; font-family:"Courier New", Courier, monospace;}
+
+h2 {font-family:"Courier New", Courier, monospace; 
+		font-size: 40px; 
+		padding: 18px; 
+		color: white; 
+		background-color: #62D0EA; 
+		clear: left; 
+		text-align:center;
+}
+
+h3{	font-family:"Courier New", Courier, monospace;
+	font-size: 40px; 
+	padding: 18px; 
+	color: white; 
+	background-color: #FFFA67; 
+	clear: left; 
+	text-align:center;
+}
+
+h4{	font-family:"Courier New", Courier, monospace;
+	font-size: 40px; 
+	padding: 15px; 
+	color: white; 
+	background-color: #E7B7FF; 
+	clear: left; 
+	text-align:center;
+}
+
+h5 {font-family:"Courier New", Courier, monospace;
+	color: black;
+	font-size: 20px;
+	width: 50px;
+    padding: 10px;
+    border: 5px solid pink;
+    margin: 0;
+	background-color: rgba(255,255,255,0.5);
+	position: fixed;
+}
+
+.Fixed
+{
+    position: fixed;
+    top: 20px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+	top: -5px;
+	left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+nav {
+    float: left;
+    max-width: 180px;
+    margin: 0;
+    padding: 1em;
+	
+}
+
+}
+ th {
+	 font-size: 35px;
+	 font-weight: bold;
+	 
+ }
+ 
+ .Table1{
+ td{ 
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+td:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+th {
+	font-size: 40px
+	
+}
+ }
+ 
+td{
+			vertical-align: top;
+			
+}
+
+li{
+	margin: 10px;
+}
+h1, h2, h3, h4, h5, h6 {line-height: 20px;}
+li {color:#E9967A; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+a {color:#E9967A;}
+/*p {font-family: "Lucida Console", Courier, monospace; font-size: 15px;}*/
+header {font-family:"Courier New", Courier, monospace; 
+		font-size: 40px; 
+		padding: len; 
+		color: white; 
+		background-color: #FA8072; 
+		clear: left; 
+		text-align:center;
+}
