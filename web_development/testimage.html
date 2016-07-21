@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Daniela Vazquez's Profolio</title>
+	</head>
+	<body background= 'strings.jpg'>
+		<p>
+		<header>Daniela's Profolio</header>
+		</p>
+		<p>
+		<script>
+		function changeImage(){
+		var xy = document.getElementById("BImage");
+		if (xy.src.match("birdie.png")) {
+			xy.src = "snow.png";
+		}
+		
+		else if (xy.src.match("snow.png")) {
+			xy.src = "birdie.png";
+		}
+	}
+	
+		</script>
+		
+		<center><img src= "snow.png" id= "BImage" onclick= "changeImage()"></center>
+</body>
+</html>

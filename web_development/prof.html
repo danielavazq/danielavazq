@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>D.V</title>
+		<link rel= "stylesheet" href="styleprof.css">
+		<link rel="icon" href="dani.png">
+		<style>
+	ul#menu li {
+		display:inline;
+	}
+		</style>
+		<!--SideBar-->
+		<style>
+		
+			body {
+				font-family: "Lucida Console", Monaco, monospace;
+				transition: background-color .5s;
+			}
+
+			.sidenav {
+					height: 100%;
+					width: 0;
+					position:fixed;
+					z-index: 1;
+					top: 0;
+					left: 0;
+					background-color: rgba(255,255,255,0.5);
+					overflow-x: hidden;
+					transition: 0.5s;
+					padding-top: 60px;
+				}
+
+			.sidenav a {
+					padding: 8px 8px 8px 32px;
+					text-decoration: underline;
+					font-size: 25px;
+					color: #FE7777;
+					display: block;
+					transition: 0.3s;
+				}
+
+			.sidenav a:hover, .offcanvas a:focus{
+					background-color: black;
+				
+				}
+
+			.closebtn {
+				position:absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px !important;
+				margin-left: 50px;
+			}
+
+			#main {
+				transition: margin-left .5s;
+				padding: 16px;
+			}
+
+			@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+			}
+			
+</style>
+		<!--SideBar-->
+	</head>
+	<body background= 'strings.jpg'>
+		<p>
+		<header>Daniela's Profolio</header>
+		</p>
+		<!--SideBarAgain-->
+		<body>
+		
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+  <a href="#">Resume</a>
+  <a href="#">Projects</a>
+  <a href="#">Partners</a>
+  <a href="#">FAQ</a>
+</div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"><h5>Menu</h5></span>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+
+</script>
+		<!--End SideBar-->
+		<p>
+		<script>
+		function changeImage(){
+		var xy = document.getElementById("BImage");
+		if (xy.src.match("birdie.png")) {
+			xy.src = "snow.png";
+		}
+		
+		else if (xy.src.match("snow.png")) {
+			xy.src = "birdie.png";
+		}
+	}
+	
+		</script>
+		
+		<center><img src= "snow.png" id= "BImage" onclick= "changeImage()"></center>
+		
+		<!--tabs-->
+		
+		<!--endtabs-->
+		</p>
+		<p>
+		<h2>My Summer Work</h2>
+		<ul id="menu">
+		<center>
+		<b><li><div class="tooltip">Mad Libs</b>
+		<span class= "tooltiptext"> An interactive program created on Python
+									that collected user input and used it to created
+									prexisting tale</span>
+		</li></div>
+		<b><li><div class="tooltip">Text Adventure</b>
+		<span class="tooltiptext">An interactive program created on Python that
+								collected user input to create a story with altering endings
+								depending on user input.</span>
+		</li></div>
+		<b><li><div class= "tooltip">Snow Fall</b>
+		<span class= "tooltiptext"><p>An animated image that displays snow falling
+									at random parts of the image to create a windy, 
+									snowy illusion.</p></span>
+		</li></div>
+		<b><li><div class= "tooltip"> Bouncy Ball</b>
+		<span class="tooltiptext">A Python program that displays a flashing balls
+									bouncing along a green screen.</span>
+		</li></div>
+		<b><li><div class= "tooltip">Obamicon</b>
+		<span class= "tooltiptext">A Obamicon filter applied to a furiously
+									serious, chubby bird named Birdie.</span>
+		</li></div>
+		</center>
+		</ul>
+		</p>
+
+		<div id= "AboutMe">
+		<h3><b><center>About Me<center></b></h3>
+		<p2><center>
+		Hello! I am Daniela Vazquez, a current student to the Girls Who Code Summer Intermission Program.
+		I live in South Florida and go to Jose Marti MAST Academy. I am very interested in coding and 
+		web design. I am an intern blog writer and social media specialist, as well as an academic informational blogger.
+		</p2></center>
+		</div>
+		
+		<h4>Help</h4>
+		<p>
+
+		<table align="center"; cellspacing= "50%"; class= "Table1">
+		<tr>
+		<th>Advice</th>
+		<th>Speaking</th>
+		<th>Business</th>
+		</tr>
+		
+		<tr align= "top">
+		<td>
+		<ul>Coding Motivation</ul>
+		<ul>HTML Example Code</ul>
+		<ul>Quick References</ul>
+		<ul>Help Websites</ul>
+		</td>
+		
+		<td col width="200">
+		<ul><p>For invitations to speak or present at events, contact me at @email 
+			and you will recieve a response in one week.</p>
+			<p>Daniela reserves all rights to decline any invitation and is not obligated 
+			to full fill any further request without previous approval.</p>
+			<p>I am honored to recieve any invitation and will consider each one.</p>
+		</ul>
+		</td>
+		</div>
+		<td col width="200">
+		<ul>For business negociation contact: @email.</ul>
+		<ul>For partnership request contact: @email.</ul>
+		<ul>For event interest contact: @email.</ul>
+		<ul>For product interest contact: @email.</ul>
+		</td>
+		</table>
+
+		<p>
+		<table style="width:100%" background= "blue.jpg">
+  <tr>
+    <th><img src= "gmail2.png" height= "200" width= "200"></th>
+    <th><img src= "twitter.png" height= "190" width= "370"></th> 
+    <th><img src= "tumblr.png" height= "180" width= "200"></th>
+  </tr>
+  <tr>
+    <td><center>email</center></td>
+    <td><center>@username</center></td> 
+    <td><center>@username</center></td>
+  </tr>
+</table>
+</p>
+	</body>
+	

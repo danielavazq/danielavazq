@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+	function myFunction() {
+	var words = document.getElementById("welcome");
+        words.innerHTML = "Thanks for visiting!";
+      }
+	  function changeImage(){
+		document.getElementById("FImage").src= "flowers.gif";
+	}
+	
+	function changeImage2(){
+		document.getElementById("FImage").src= "birdie.png";
+		}
+    </script>
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to my page!</h1>
+    <button id="btn" onclick="myFunction()">Click me!</button>
+	<img id="FImage" src= 'flowers.gif' onmouseover="changeImage()" onmouseout="changeImage2()">
+  </body>
+</html>
