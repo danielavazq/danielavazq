@@ -1,0 +1,236 @@
+<!DCOTYPE html>
+<html lang="en">
+<link rel= "stylesheet" href="style.css">
+<link rel= "icon" href="bluey.png">
+<head>
+<title>
+BlueHalo
+</title>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width, initial-scale=1">
+<!--Lastest verson-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--jQuery library-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!--lastest javascript-->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+      }
+
+</style>
+</head>
+
+
+<body background="bkk.jpg">
+<div class="container-fluid" class="bg-1">
+</div>
+<!--Nav-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BlueHalo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">The Ocean</a></li> 
+      <li><a href="#">How You Can Help!</a></li> 
+    </ul>
+  </div>
+</nav>
+
+<!--endnav-->
+
+<!--Carousl-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <center><img src="global.jpg" alt="Global Goal" width="99%" height="99%"></center>
+      <div class="carousel-caption">
+        <h3>Global Goals</h3>
+        <p>Stephen Hawlkins talks about the goals global politicans and world leaders have promises
+		to full fill by 2030.</p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <center><img src="bkkk.jpg" alt="Blue Heart of the Planet"width="99%" height="99%"></center>
+      <div class="carousel-caption">
+        <a href="https://www.youtube.com/watch?v=pDZvtAOoW5Y"><h3>Blue Heart of the Planet VIDEO</h3></a>
+        <p>A BBC production displaying the importance of our oceans and the life they contain.</p>
+      </div> 
+    </div>
+
+    <div class="item">
+     <center><img src="deadcoral.jpg" alt="Bleaching Coral"width="99%" height="99%"></center>
+      <div class="carousel-caption">
+        <h3>Bleach Coral</h3>
+        <p>The risk our most diverse ecosystem faces due to the stressful and damaging condition of the oceans.</p>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!--EndCarousel-->
+<p>
+</p>
+<!--scale-->
+
+<div class="jumbotron">
+  <h1>The Ice</h1>
+  <p id="pp">Due to the alarming increase of green house gases in our atmoshpere, the world around us has been changing
+	rapidly. One area that is being largely affect is our oceans and it's wild life. 
+	Thier environment is being harmed and threatened by pour actions.</p>
+  <p><a class="btn btn-primary btn-lg" href="http://earthobservatory.nasa.gov/Features/PolarIce/polar_ice2.php" role="button">Learn more</a></p>
+</div>
+<!--endscale-->
+
+<h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+	<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 44.540, lng: -78.546},
+            zoom: 8
+        });
+      }
+    </script>
+    <!--<script async defer
+        src="https://maps.googleapis.com/maps/api/AIzaSyDu_ieMcX9_dlpBQ_SHp2MNyGgzDvK0Z0c">
+    </script>-->
+	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu_ieMcX9_dlpBQ_SHp2MNyGgzDvK0Z0c&callback=initMap"
+  async defer>
+</script>
+
+<!--service-->
+
+<div class="container-fluid text-center">
+<div class="logo-small">
+  <h2>SERVICES</h2>
+  <h4>WE PROTECT OUR OCEANS WITH</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off"></span>
+      <h4>POWER</h4>
+      <p>The power of change and connections.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart"></span>
+      <h4>LOVE</h4>
+      <p>The empathy and sympathy that drives our movement.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock"></span>
+      <h4>JOB DONE</h4>
+      <p>Contributing and participating in wild life protection.</p>
+    </div>
+    </div>
+    <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf"></span>
+      <h4>GREEN</h4>
+      <p>Remembering our actions can help stop this.</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate"></span>
+      <h4>CERTIFIED</h4>
+      <p>Professional aiding and collaboration with others ot help our environments</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench"></span>
+      <h4>HARD WORK</h4>
+      <p>Appriciating the work our volunteers, staff, and contributors do to make this world a better place,
+		because we have the power to make a change.</p>
+		</div>
+    </div>
+  </div>
+</div>
+
+<!--endserv-->
+<!--Thumbnial-->
+
+
+<div class="column">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="shark.jpg" alt="Sharks">
+      <div class="caption">
+        <h3>Is it time we stop fearing sharks and start fearing a world without them?</h3>
+        <p id="pp">Hundreds of different shark species roam our oceans and play different 
+		important roles in the ecosystem. Forty species of sharks swim in Hawaiian waters alone.
+		Sharks are apex predators, which means they are at the top of the oceanic food chain. 
+		This also means that they have a direct impact on the ecology of our oceans.</p>
+        <p><a href="http://www.nature.org/ourinitiatives/habitats/oceanscoasts/sharks.xml" class="btn btn-primary" role="button">Article</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="pol.jpg" alt="Pollution">
+      <div class="caption">
+        <h3>Marine Pollution</h3>
+        <p id="pp">The oceans are so vast and deep that until fairly recently, 
+		it was widely assumed that no matter how much trash and chemicals humans dumped into them, 
+		the effects would be negligible. Proponents of dumping in the oceans even had a catchphrase: 
+		"The solution to pollution is dilution."</p>
+		<p id="pp">Today, we need look no further than the New Jersey-size dead zone that forms each summer in the Mississippi River Delta, or the thousand-mile-wide swath of decomposing
+		plastic in the northern Pacific Ocean to see that this "dilution" policy has helped place a once flourishing ocean ecosystem on the brink of collapse.
+		</p>
+        <p><a href="http://ocean.nationalgeographic.com/ocean/explore/pristine-seas/critical-issues-marine-pollution/" class="btn btn-primary" role="button">Article</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="trashb.jpg" alt="Pollution">
+      <div class="caption">
+        <h3>What is the biggest source of pollution in the ocean?</h3>
+        <p id="pp">Eighty percent of pollution to the marine environment comes from the land. One of the biggest sources is called nonpoint source pollution, which occurs as a result of runoff. 
+		Nonpoint source pollution includes many small sources, like septic tanks, cars, trucks, and boats, plus larger sources, such as farms, ranches, and forest areas. 
+		Millions of motor vehicle engines drop small amounts of oil each day onto roads and parking lots. Much of this, too, makes its way to the sea.</p>
+        <p><a href="http://oceanservice.noaa.gov/facts/pollution.html" class="btn btn-primary" role="button">Article</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Thumbnail-->
+
+</body>
+
+</html>

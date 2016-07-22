@@ -1,0 +1,38 @@
+p {
+	color: white;
+}
+
+h3{
+	color: black;
+}
+
+body {
+	background-color: blue;
+		
+	}
+	a{
+		color: black;
+	}
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(iceberg.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+#pp {
+	color:black;
+}
+.logo-small {
+    color: white;
+}
+
+.logo {
+    color: blue;
+    font-size: 200px;
+}
